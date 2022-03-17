@@ -16,5 +16,8 @@ class Word():
     def typed_word_ok(self):
         self.label.config(fg="blue", bg=BG)
 
+    def typed_word_wrong(self):
+        self.label.config(fg="red", bg=BG)
+
     def current_word(self):
         self.label.config(bg="green")
