@@ -21,3 +21,6 @@ class Word():
 
     def current_word(self):
         self.label.config(bg="green")
+
+    def clear_label(self):
+        self.label.config(text='')
